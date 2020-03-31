@@ -18,6 +18,7 @@ $('form').submit(function(e) {
     $message1.text(data.placename)
     $message2.text(data.forecastData)
   }).catch((error) => {
+    $message1.text(`Error: ${error}`)
     console.log(error)
   })
 })
