@@ -1,0 +1,77 @@
+/* reseting everything */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: #333333;
+}
+
+/* styling header */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 0rem auto;
+  padding: 0 2rem;
+}
+
+.header .title {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.navbar li a {
+  color: #888888;
+  text-decoration: none;
+}
+
+/* styling footer */
+
+.footer {
+  width: 100%;
+  border-top: 2px solid #eeeeee;
+  padding: 2rem 0;
+  margin-top: auto;
+}
+
+.footer .p {
+  color: #888888;
+}
+
+/* index page */
+
+#message-1, #message-2 {
+  margin: .5rem 0;
+}
+
+#input-search {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+
+button:hover {
+  background: #707070;
+}
+
+/* about page */
+
+.img-me {
+  width: 16rem;
+}
